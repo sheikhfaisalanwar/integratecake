@@ -1,0 +1,38 @@
+
+html,body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  background: #222;
+  color: #aaa
+}
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}
+
+#overlay { 
+  position:absolute; top:20px; left:30px; 
+}
+#txt{
+  display: block;
+}
+#brand{
+  color: rgba(10, 224, 213, 0.555);
+  font-size: 1em;
+}
+
+.large-header {
+  position: relative;
+  width: 100%;
+  background: #333;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
